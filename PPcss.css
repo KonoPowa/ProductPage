@@ -12,7 +12,14 @@
 	
 #container1{
 	display: flex;
-	background-color: purple;
+	flex-direction: column;
+	background-color: blue;
 	height: 600px;
 	width: 600px;
+}
+
+#item1{
+	height: 200px;
+	width: 300px;
+	background: red;
 }
