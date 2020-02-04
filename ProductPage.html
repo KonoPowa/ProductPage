@@ -3,6 +3,7 @@
 	<head>
 	</head>
 	<body>
+	<!-- Use Flexbox -->
 		<header id="header">
 			<img id="header-img">
 			<h1>Title</h1>
@@ -12,8 +13,14 @@
 				<a href="#" class="nav-link">#<a>
 			</nav>
 		</header>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/tyrKeThaEJM" frameborder="0" 
-		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-		</iframe>
+		<div id="container1">
+			<iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/tyrKeThaEJM" frameborder="0" 
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+			</iframe>
+			<form>
+				<input type="email" id="email" placeholder="Enter your email">
+				<button type="submit" id="submit">Submit</button>
+			</form>
+		</div>
 	</body>
 </html>
