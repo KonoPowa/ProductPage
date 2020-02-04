@@ -1,0 +1,18 @@
+*{
+		margin: 0;
+		padding: 0;
+	}
+
+#nav-bar{
+	position: fixed;
+}
+
+@media screen and (max-width: 600px){
+	}	
+	
+#container1{
+	display: flex;
+	background-color: purple;
+	height: 600px;
+	width: 600px;
+}
