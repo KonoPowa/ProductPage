@@ -1,29 +1,60 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	<link href="https://fonts.googleapis.com/css?family=Griffy&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya&display=swap" rel="stylesheet">
 	<link href="PPcss.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 	<!-- Use Flexbox -->
 		<header id="header">
-			<img id="header-img">
-			<h1>Title</h1>
-			<nav id="nav-bar">
-				<a href="#" class="nav-link">#<a>
-				<a href="#" class="nav-link">#<a>
-				<a href="#" class="nav-link">#<a>
-			</nav>
+			<div id="hcontainer">
+				<div id="hitem1">
+					<img id="header-img" src="https://i.imgur.com/p15RWnf.gif">
+					<h1 id="title">FloatyPhantom</h1>
+				</div>
+				<div id="hitem2">
+					<nav id="nav-bar">
+						<a href="#item2" class="nav-link">About<a>
+						<a href="#img-div" class="nav-link">Drawings<a>
+						<a href="#" class="nav-link">Info<a>
+					</nav>
+				</div>
+			</div>
 		</header>
+	<!--container-->
 		<div id="container1">
-			<iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/tyrKeThaEJM" frameborder="0" 
+			<div id="item2">
+				<p id="home"> Floaty's Comissions!</p>
+				
+				<p id="home2"> bringing you cute demon girls since 2015</p>
+			</div>
+			<iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/Cg4vNZ67QhY" frameborder="0" 
 			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 			</iframe>
+		<!--item-->
+			<div id="img-div">
+				<img src="https://i.imgur.com/JVlBo7o.png">
+				<img src="https://i.imgur.com/KykGmuy.png">
+				<img src="https://i.imgur.com/Jaw2hM9.png">
+				<img src="https://i.imgur.com/Hf0iY6K.png">
+			</div>
 			<div id="item1">
-			<form>
-				<input type="email" id="email" placeholder="Enter your email">
-				<button type="submit" id="submit">Submit</button>
+			<form id="form">
+				<div id="emaildiv">
+					<input type="email" id="email" placeholder="Enter your email">
+				</div>
+				<div id="submitdiv">
+					<button type="submit" id="submit">Submit</button>
+				</div>
 			</form>
 			</div>
 		</div>
+		<footer>
+			<div id="footer-div">
+				<a id="yt-link" href="https://www.youtube.com/channel/UCL3zm0dGauWjuDxMc9QTw5Q" target="_blank"> Youtube </a>
+				<a id="insta-link" href="https://www.instagram.com/floatyphantom/?hl=en" target="_blank"> Instagram </a>
+			</div>
+		</footer>
 	</body>
 </html>
