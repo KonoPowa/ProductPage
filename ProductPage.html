@@ -43,18 +43,18 @@
 		<!--item-->
 			
 			<div id="yt-div">
-				<iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/Cg4vNZ67QhY" frameborder="0" 
+				<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cg4vNZ67QhY" frameborder="0" 
 				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 				</iframe>
 			</div>
 			<div id="item1">
 			<p id="info"> Interested in comission deals? </p>
-			<form id="form">
+			<form id="form" target="_blank" action=" https://www.freecodecamp.com/email-submit">
 				<div id="emaildiv">
-					<input type="email" id="email" placeholder="Enter your email...">
+					<input type="email" id="email" required placeholder="Enter your email..." name="email">
 				</div>
 				<div id="submitdiv">
-					<button type="submit" id="submit" value="submit">Submit</button>
+					<input type="submit" id="submit" value="submit" name="submit">
 				</div>
 			</form>
 			</div>
